@@ -2,7 +2,7 @@
 #' teatimer
 #'
 #' teatimer is a timer that, by default, runs for however many minutes specified and then
-#' plays an sound when the time is up. It can be set to run in seconds rather than minutes
+#' plays a sound when the time is up. It can be set to run in seconds rather than minutes
 #' and the sound can also be specified.
 #'
 #' @param time A positive number, the amount of time to wait
@@ -19,6 +19,7 @@
 #' }
 #'
 teatimer <- function(time = 1, minutes = TRUE, sound = 0){
+  if(time<0) time = 0
   if(!(minutes)) time = time*60
   beepr::beep(sound = sound, expr = Sys.sleep(time))
 }
