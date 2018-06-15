@@ -19,7 +19,9 @@ one of the built in sounds, specifying the path to a wav file or specifying an u
 See the documentation for \code{\link[beepr:beep]{beep}}.}
 }
 \description{
-teatimer
+teatimer is a timer that, by default, runs for however many minutes specified and then
+plays an sound when the time is up. It can be set to run in seconds rather than minutes
+and the sound can also be specified.
 
 teatimer.
 }

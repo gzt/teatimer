@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-teatimerrr
-==========
+teatimer
+========
 
 The goal of teatimer is to set an easy (albeit rough) timer. It has one function: `teatimer` which runs `beepr::beep()` after however many minutes or seconds the user specifies. Be forewarned: because this runs using `Sys.sleep()`, it is not running in the background - the R console will not be available while it is running. Plan accordingly.
 

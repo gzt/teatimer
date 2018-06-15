@@ -1,6 +1,10 @@
 
 #' teatimer
 #'
+#' teatimer is a timer that, by default, runs for however many minutes specified and then
+#' plays an sound when the time is up. It can be set to run in seconds rather than minutes
+#' and the sound can also be specified.
+#'
 #' @param time A positive number, the amount of time to wait
 #' @param minutes If TRUE, time is in minutes. If FALSE, time is in seconds.
 #' @param sound character string or number specifying what sound to be played by either specifying
