@@ -1,4 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+[![Coverage Status](https://img.shields.io/codecov/c/github/gzt/teatimer/master.svg)](https://codecov.io/github/gzt/teatimer?branch=master) [![Travis-CI Build Status](https://travis-ci.org/gzt/teatimer.svg?branch=master)](https://travis-ci.org/gzt/teatimer)
+
 teatimer
 ========
 

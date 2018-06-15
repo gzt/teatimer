@@ -14,6 +14,9 @@ knitr::opts_chunk$set(
 )
 ```
 
+[![Coverage Status](https://img.shields.io/codecov/c/github/gzt/teatimer/master.svg)](https://codecov.io/github/gzt/teatimer?branch=master) [![Travis-CI Build Status](https://travis-ci.org/gzt/teatimer.svg?branch=master)](https://travis-ci.org/gzt/teatimer)
+
+
 # teatimer
 
 The goal of teatimer is to set an easy (albeit rough) timer. It has one function: `teatimer` which runs
