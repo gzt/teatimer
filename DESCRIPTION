@@ -11,4 +11,5 @@ RoxygenNote: 6.0.1
 Imports: beepr
 URL: https://github.com/gzt/teatimer
 BugReports: https://github.com/gzt/teatimer/issues
-Suggests: testthat
+Suggests: testthat,
+    covr
