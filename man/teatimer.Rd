@@ -5,7 +5,7 @@
 \alias{teatimer}
 \alias{teatimer}
 \alias{teatimer-package}
-\title{teatimer}
+\title{Play a Sound After Some Time}
 \usage{
 teatimer(time = 1, minutes = TRUE, sound = 0)
 }
@@ -16,14 +16,19 @@ teatimer(time = 1, minutes = TRUE, sound = 0)
 
 \item{sound}{character string or number specifying what sound to be played by either specifying
 one of the built in sounds, specifying the path to a wav file or specifying an url. The default is 0.
-See the documentation for \code{\link[beepr:beep]{beep}}.}
+See the documentation for \code{\link[beepr:beep]{beep}}, as the input on this argument is passed
+directly to that function.}
 }
 \description{
 teatimer is a timer that, by default, runs for however many minutes specified and then
-plays an sound when the time is up. It can be set to run in seconds rather than minutes
+plays a sound when the time is up. It can be set to run in seconds rather than minutes
 and the sound can also be specified.
 
-teatimer.
+This is a one-function package that will play a sound after a specified interval of time.
+It wraps around the function \code{beepr::beep()}. After a specified number of
+minutes or seconds it plays whatever sound is specified. Because it uses
+\code{Sys.sleep()} and audio may not play immediately, timing may not be precise.
+This is, however, sufficiently accurate for use on a cup of tea.
 }
 \examples{
 \dontrun{
