@@ -14,7 +14,10 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![Coverage Status](https://img.shields.io/codecov/c/github/gzt/teatimer/master.svg)](https://codecov.io/github/gzt/teatimer?branch=master) [![Travis-CI Build Status](https://travis-ci.org/gzt/teatimer.svg?branch=master)](https://travis-ci.org/gzt/teatimer)
+[![Coverage Status](https://img.shields.io/codecov/c/github/gzt/teatimer/master.svg)](https://codecov.io/github/gzt/teatimer?branch=master) 
+[![Travis-CI Build Status](https://travis-ci.org/gzt/teatimer.svg?branch=master)](https://travis-ci.org/gzt/teatimer) 
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/teatimer)](https://cran.r-project.org/package=teatimer)
+
 
 
 # teatimer
@@ -23,6 +26,7 @@ The goal of teatimer is to set an easy (albeit rough) timer. It has one function
 `beepr::beep()` after however many minutes or seconds the user specifies. 
 Be forewarned: because this runs using `Sys.sleep()`, it is not running in the background - the R console will 
 not be available while it is running. Plan accordingly.
+
 
 ## Example
 
@@ -35,6 +39,18 @@ teatimer(time = 0, minutes = TRUE, sound = 1)
 This immediately plays a 'ping' sound. The `minutes` argument, by default `TRUE`, indicates whether to treat the 
 `time` argument as minutes (`TRUE`) or seconds (`FALSE`). The `sound` argument is passed to `beepr::beep()`. 
 By default, it plays a random sound.
+
+
+# Installation
+
+teatimer is not currently available on CRAN, but you can install it with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("gzt/teatimer")
+```
+
+
 
 Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
 
