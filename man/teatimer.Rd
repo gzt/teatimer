@@ -22,7 +22,9 @@ directly to that function.}
 \description{
 teatimer is a timer that, by default, runs for however many minutes specified and then
 plays a sound when the time is up. It can be set to run in seconds rather than minutes
-and the sound can also be specified.
+and the sound can also be specified. This is not a precision timer.
+If \code{beepr::beep} is not able to play the sound a warning is issued rather than
+an error.
 
 This is a one-function package that will play a sound after a specified interval of time.
 It wraps around the function \code{beepr::beep()}. After a specified number of

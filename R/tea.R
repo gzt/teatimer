@@ -11,7 +11,7 @@
 #' @param minutes If TRUE, time is in minutes. If FALSE, time is in seconds.
 #' @param sound character string or number specifying what sound to be played by either specifying
 #'      one of the built in sounds, specifying the path to a wav file or specifying an url. The default is 0.
-#'      See the documentation for \code{\link[beepr::beep]{beep}}, as the input on this argument is passed
+#'      See the documentation for \code{\link[beepr:beep]{beep}}, as the input on this argument is passed
 #'      directly to that function.
 #'
 #' @export
