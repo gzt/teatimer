@@ -16,4 +16,4 @@ This is a new release, so there are no reverse dependencies.
 
 ## Notes
 
-This is essentially a wrapper around beepr::beep()
+This is essentially a simple wrapper around beepr::beep() - if that package works, this should.
