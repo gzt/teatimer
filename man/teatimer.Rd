@@ -4,7 +4,7 @@
 \alias{teatimer}
 \title{Play a Sound After Some Time}
 \usage{
-teatimer(time = 1, minutes = TRUE, sound = 0)
+teatimer(time = 1, minutes = TRUE, sound = 1)
 }
 \arguments{
 \item{time}{A positive number, the amount of time to wait}
@@ -12,8 +12,8 @@ teatimer(time = 1, minutes = TRUE, sound = 0)
 \item{minutes}{If TRUE, time is in minutes. If FALSE, time is in seconds.}
 
 \item{sound}{character string or number specifying what sound to be played by either specifying
-one of the built in sounds, specifying the path to a wav file or specifying an url. The default is 0,
-which plays a random sound from \code{beepr::beep()}..
+one of the built in sounds, specifying the path to a wav file or specifying an url. The default is 1,
+which plays a 'ping' sound from \code{beepr::beep()}..
 See the documentation for \code{\link[beepr:beep]{beep}}, as the input on this argument is passed
 directly to that function.}
 }

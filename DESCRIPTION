@@ -1,5 +1,5 @@
 Package: teatimer
-Title: Timer With an Alarm
+Title: Timer with an Alarm
 Version: 0.1.0
 Authors@R: person("Geoffrey", "Thompson", email = "gzthompson@gmail.com", role = c("aut", "cre"))
 Description: A rough timer which will play a notification sound after a specified number of minutes or seconds. It is intended to be useful if you want a reminder in 3 minutes that your tea is ready.
