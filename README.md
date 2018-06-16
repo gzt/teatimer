@@ -1,9 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-<!--[![Coverage Status](http://img.shields.io/codecov/c/github/gzt/teatimer/master.svg)](https://codecov.io/github/gzt/teatimer?branch=master) 
-[![Travis-CI Build Status](https://travis-ci.org/gzt/teatimer.svg?branch=master)](https://travis-ci.org/gzt/teatimer) 
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/gzt/teatimer?branch=master&svg=true)](https://ci.appveyor.com/project/gzt/teatimer)
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/teatimer)](https://cran.r-project.org/package=teatimer)
--->
+[![Coverage Status](http://img.shields.io/codecov/c/github/gzt/teatimer/master.svg)](https://codecov.io/github/gzt/teatimer?branch=master) [![Travis-CI Build Status](https://travis-ci.org/gzt/teatimer.svg?branch=master)](https://travis-ci.org/gzt/teatimer) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/gzt/teatimer?branch=master&svg=true)](https://ci.appveyor.com/project/gzt/teatimer) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/teatimer)](https://cran.r-project.org/package=teatimer)
+
 teatimer
 ========
 
