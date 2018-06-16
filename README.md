@@ -15,7 +15,7 @@ Here is a basic example of all the options:
 teatimer(time = 0, minutes = TRUE, sound = 1)
 ```
 
-This immediately plays a 'ping' sound. The `minutes` argument, by default `TRUE`, indicates whether to treat the `time` argument as minutes (`TRUE`) or seconds (`FALSE`). The `sound` argument is passed to `beepr::beep()`. By default, it plays the 'ping' sound. To play a random sound, set `sound = 1`.
+This immediately plays a 'ping' sound. The `minutes` argument, by default `TRUE`, indicates whether to treat the `time` argument as minutes (`TRUE`) or seconds (`FALSE`). The `sound` argument is passed to `beepr::beep()`. By default, it plays the 'ping' sound. To play a random sound, set `sound = 0`.
 
 Installation
 ============
