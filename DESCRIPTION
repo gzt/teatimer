@@ -2,7 +2,7 @@ Package: teatimer
 Title: Timer with an Alarm
 Version: 0.1.0
 Authors@R: c(person(c("Geoffrey", "Thompson"),email="gzthompson@gmail.com",
-role = c("aut", "cre"), orcid = '0000-0003-2436-8822'))
+role = c("aut", "cre"), comment = c(orcid = '0000-0003-2436-8822')))
 Description: A rough timer which will play a notification sound after a specified number of minutes or seconds. It is intended to be useful if you want a reminder in 3 minutes that your tea is ready.
 Depends: R (>= 3.0.0)
 License: GPL-3
